@@ -16,6 +16,19 @@
         "dist/hello_frontend/"
       ],
       "type": "assets"
+    },
+    "hello_frontend_111": {
+      "dependencies": [
+        "hello_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/hello_frontend/src/index.html"
+      },
+      "source": [
+        "src/hello_frontend/assets",
+        "dist/hello_frontend/"
+      ],
+      "type": "assets"
     }
   },
   "defaults": {
